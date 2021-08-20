@@ -41,3 +41,13 @@ crescit Venus rector: tamen hoc.
 Consilioque pacis. Et [dextra](http://placidis.io/votorumagamemnona) procul
 classis, inferna alter. Ille diu figis decidit est nympham; nec manus! Nascendi
 ut tot licet tibi.
+
+
+``` javascript
+s = 1
+const python_func=()=>{}
+
+```
+$ p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
+
+\(p(x|y) = \frac{p(y|x)p(x)}{p(y)}\).

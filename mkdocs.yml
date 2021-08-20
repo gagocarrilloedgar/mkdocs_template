@@ -1,7 +1,72 @@
+
+# Project information
 site_name: Test example MKDocs
 site_url: https://example.com/
-nav:
-    - Home: index.md
-    - About: about.md
+
+
+# Repository
+repo_name: gagocarrilloedgar/mkdocs_template
+repo_url: https://github.com/gagocarrilloedgar/mkdocs_template
+edit_uri: ""
+
 theme:
   name: material
+  palette:
+    - scheme: slate 
+      primary: green
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to ligth mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: img/favicon.png
+
+# Page tree
+nav:
+  - Home: index.md
+  - About: about.md
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
