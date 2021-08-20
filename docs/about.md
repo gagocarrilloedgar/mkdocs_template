@@ -30,9 +30,16 @@ floresque ea ipsoque tantae.
 
 Cibus matris excitat felle! Causa egreditur premitur flamma robora.
 
-    browser_web_crossplatform = icio_jpeg - base_pop;
+!!! note
+    browser_web_crossplatform = icio_jpeg   base_pop;
     emoticon_icf += matrix_atm_goodput;
     var t_pharming = cpuViewUser(php);
+
+??? note
+    browser_web_crossplatform = icio_jpeg   base_pop;
+    emoticon_icf += matrix_atm_goodput;
+    var t_pharming = cpuViewUser(php);
+
 
 Sit uvae verba bracchia et moenia; aevo, vel est, te carinae vocisque cortice.
 Refert [suum](http://flectitur.net/illaegeneri), est naides virgine officioque
@@ -48,6 +55,41 @@ s = 1
 const python_func=()=>{}
 
 ```
-$ p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
+$$
+\operatorname{ker} f=\{g\in G:f(g)=e_{H}\}{\mbox{.}}
+$$
 
-\(p(x|y) = \frac{p(y|x)p(x)}{p(y)}\).
+``` mermaid
+sequenceDiagram
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+      John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```
+
+[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+[^2]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
+
+
+![Placeholder](https://dummyimage.com/200x300/eee/aaa){ align=left }{ loading=lazy }
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+<figure>
+  <img src="https://dummyimage.com/600x400/eee/aaa" width="300" />
+  <figcaption>Image caption</figcaption>
+</figure>
+
+- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque

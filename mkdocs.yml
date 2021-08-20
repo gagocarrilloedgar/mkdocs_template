@@ -1,7 +1,7 @@
 
 # Project information
 site_name: Test example MKDocs
-site_url: https://example.com/
+site_url:  https://gagocarrilloedgar.github.io/mkdocs_template/
 
 
 # Repository
@@ -11,6 +11,9 @@ edit_uri: ""
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: img/favicon.ico
+  homepage: https://github.com/gagocarrilloedgar/mkdocs_template
   palette:
     - scheme: slate 
       primary: green
@@ -22,6 +25,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+  icon:
+    repo: fontawesome/brands/github
   font:
     text: Roboto
     code: Roboto Mono
@@ -64,9 +69,40 @@ markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
-          class: mermaid-experimental
+          class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.details
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+  
+# Plugins
+plugins:
+  - search
+  - git-revision-date
+
+# Customization
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gagocarrilloedgar
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/edgargc9
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/_youedgar
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/edgargagocarrillo/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/edgar.gago
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:edgargc.upc@gmail.com
