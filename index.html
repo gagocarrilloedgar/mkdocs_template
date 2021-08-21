@@ -475,28 +475,28 @@ docs/
 <h2 id="install">Install<a class="headerlink" href="#install" title="Permanent link">&para;</a></h2>
 <p>MkDocs requires a recent version of Python and the the Python package manager, pip, to be installed on your system.</p>
 <p>You can check if you already have these installed from the command line:</p>
-<div class="highlight"><pre><span></span><code>$ python --version
-    Python <span class="m">3</span>.8.2
+<pre><code class="language-shell">$ python --version
+    Python 3.8.2
 $ pip --version
-    pip <span class="m">20</span>.0.2 from /usr/local/lib/python3.8/site-packages/pip <span class="o">(</span>python <span class="m">3</span>.8<span class="o">)</span>
-</code></pre></div>
+    pip 20.0.2 from /usr/local/lib/python3.8/site-packages/pip (python 3.8)
+</code></pre>
 <p>If you don't have them make sure to install both. After that: </p>
-<div class="highlight"><pre><span></span><code>pip install mkdocs
+<pre><code class="language-shell">pip install mkdocs
 pip install mkdocs-material 
-<span class="c1"># Configure cool material extensions</span>
+# Configure cool material extensions
 pip install mkdocs-material-extensions  
-<span class="c1"># For adding git-revision-upadte to your documentation site </span>
+# For adding git-revision-upadte to your documentation site 
 pip install mkdocs-git-revision-date-plugin
 
-<span class="c1"># This is just required to create documenation from jsdocs</span>
+# This is just required to create documenation from jsdocs
 npm i jsdoc-to-markdown 
-</code></pre></div>
+</code></pre>
 <p>or simply do:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Install the nwe pacakge</span>
+<pre><code class="language-shell"># Install the nwe pacakge
 npm i nwe 
-<span class="c1"># Setup the MKDocs + Materila and clone the tempalte into your repo</span>
+# Setup the MKDocs + Materila and clone the tempalte into your repo
 nwe docs -m 
-</code></pre></div>
+</code></pre>
 <h2 id="mkdocs-commands">MKDocs Commands<a class="headerlink" href="#mkdocs-commands" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
