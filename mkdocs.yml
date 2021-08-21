@@ -12,12 +12,16 @@ site_description: >-
 copyright: Copyright &copy; 2021 your_name
 
 # Page tree
+# Page tree
 nav:
-  - Home: index.md 
-  - About: about.md
-  - Conribute: contribute.md
-  - Licence: license.md
-  - Code of Conduct: conduct.md
+  - README:
+    - Home: index.md
+    - About: about.md
+    - Code of conduct: conduct.md
+    - Cotribute: contribute.md
+    - License: license.md
+  - src: 
+    - Home: src/index.md
 
 
 # Repository
