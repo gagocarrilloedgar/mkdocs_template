@@ -19,9 +19,8 @@ nav:
     - Source code examples from JSDocs: source.md
     - Code of conduct: code_of_conduct.md
     - License: license.md
-  -src: 
+  - src: 
     - Home: src/index.md
-
 
 # Repository
 repo_name: gagocarrilloedgar/mkdocs_template
