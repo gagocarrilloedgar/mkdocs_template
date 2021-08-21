@@ -31,11 +31,13 @@ theme:
   favicon: img/favicon.ico
   homepage: https://github.com/gagocarrilloedgar/mkdocs_template
   features:
+    - navigation.instant
     - navigation.top
+    - navigation.sections
   palette:
     - scheme: slate 
       primary: green
-      accent: deep purple
+      accent: green
       toggle:
         icon: material/weather-sunny
         name: Switch to ligth mode
