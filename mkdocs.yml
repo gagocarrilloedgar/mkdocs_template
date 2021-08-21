@@ -20,6 +20,7 @@ nav:
     - Code of conduct: code_of_conduct.md
     - License: license.md
   -src: 
+    - Home: src/index.md
 
 
 # Repository
