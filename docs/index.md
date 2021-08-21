@@ -30,4 +30,13 @@ pip install mkdocs-git-revision-date-plugin
 
 ## More documentaion
 
-[MKDocs Material](https://squidfunk.github.io/mkdocs-material/)
+- For custom docs documentation: [MKDocs Material](https://squidfunk.github.io/mkdocs-material/)
+
+- For writting quality documentation code [Typora](https://typora.io)
+
+  
+
+``` Python
+def this_is a function 
+```
+
