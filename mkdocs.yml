@@ -3,6 +3,12 @@
 site_name: Test example MKDocs
 site_url:  https://gagocarrilloedgar.github.io/mkdocs_template/
 
+# Page tree
+nav:
+  - Home: index.md
+  - About: about.md
+  - Source code: source.md
+
 
 # Repository
 repo_name: gagocarrilloedgar/mkdocs_template
@@ -31,11 +37,6 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: img/favicon.png
-
-# Page tree
-nav:
-  - Home: index.md
-  - About: about.md
 
 # Extensions
 markdown_extensions:

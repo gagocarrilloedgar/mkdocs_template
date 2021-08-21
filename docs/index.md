@@ -25,7 +25,14 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 pip install mkdocs-material  
 pip install mkdocs-material-extensions   
 pip install mkdocs-git-revision-date-plugin
+npm i jsdoc-to-markdown 
+```
 
+
+## Usage of JSdoc-To-Markdown
+
+```sh
+    jsdoc2md ./src/routes/** > routes.md
 ```
 
 ## More documentaion
