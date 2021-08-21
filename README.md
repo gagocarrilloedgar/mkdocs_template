@@ -6,10 +6,12 @@ This is a custom setup based on [mkdocs.org](https://www.mkdocs.org) and [MKDocs
 ## Project layout
 
     mkdocs.yml    # The configuration file.
+    README.md     # Repository explanation
+    CODE_OF_CONDUCT.md    # 
+    LICENSE
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-
 
 
 ## Install
@@ -40,6 +42,15 @@ pip install mkdocs-git-revision-date-plugin
 npm i jsdoc-to-markdown 
 ```
 
+or simply do:
+
+``` shell
+# Install the nwe pacakge
+npm i nwe 
+# Setup the MKDocs + Materila and clone the tempalte into your repo
+nwe docs -m 
+```
+
 
 ## MKDocs Commands 
 
@@ -49,7 +60,7 @@ npm i jsdoc-to-markdown
 * `mkdocs -h` - Print help message and exit.
 
 
-## More documentaion
+## More documentation
 
 - For custom docs documentation: [MKDocs Material](https://squidfunk.github.io/mkdocs-material/)
 
@@ -58,3 +69,18 @@ npm i jsdoc-to-markdown
 - For more information about project documentatino [Project documentation tools](https://www.altexsoft.com/blog/business/technical-documentation-in-software-development-types-best-practices-and-tools/)
 
 - For easy convertion between JSDoc and MKDocs check the **nwe docs** command: [nwe npm](https://www.npmjs.com/package/nwe)
+
+
+## Contact info 
+
+You can contact me on LinkedIn
+
+[Edgar Gago Carrillo](https://www.linkedin.com/in/edgargagocarrillo/)
+
+or at:
+
+> edgargc.upc@gmail.com
+
+## Licence 
+
+[MIT](https://opensource.org/licenses/MIT)
