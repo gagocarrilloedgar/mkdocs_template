@@ -1,22 +1,28 @@
 
 # Project information
-site_name: Test example MKDocs
-site_url: https://gagocarrilloedgar.github.io/mkdocs_template/
+site_name: Your title
+site_url: https://example.com
+site_author: your_name
+site_description: >-
+  This is a custom setup based on mkdocs.org and MKDocs Material
+  that contains the basic project documentation config, including, README, 
+  code of conduct and license
 
+# Copyright
+copyright: Copyright &copy; 2021 your_name
 
 # Page tree
-
 nav:
   - Home: index.md 
   - About: about.md
   - Conribute: contribute.md
-  - Licence: LICENSE.md
-  - Code of Conduct: CODE_OF_CONDUCT.md
+  - Licence: license.md
+  - Code of Conduct: conduct.md
 
 
 # Repository
-repo_name: gagocarrilloedgar/mkdocs_template
-repo_url: https://github.com/gagocarrilloedgar/mkdocs_template
+repo_name: username/repo_name
+repo_url: https://github.com/username/repo_name
 edit_uri: ""
 
 # Theme
@@ -24,7 +30,7 @@ theme:
   name: material
   logo: assets/logo.png
   favicon: img/favicon.ico
-  homepage: https://github.com/[gagocarrilloedgar]/mkdocs_template
+  homepage: https://github.com/username/repo
   features:
     - navigation.top
   palette:
@@ -103,14 +109,14 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/gagocarrilloedgar
+      link: https://github.com/your_profile
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/edgargc9
+      link: https://hub.docker.com/r/your_profile
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/_youedgar
+      link: https://twitter.com/your_profile
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/edgargagocarrillo/
+      link: https://linkedin.com/in/your_profile/
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/edgar.gago
+      link: https://instagram.com/your_profile
     - icon: fontawesome/solid/paper-plane
-      link: mailto:edgargc.upc@gmail.com
+      link: mailto:your_email@gmail.com
