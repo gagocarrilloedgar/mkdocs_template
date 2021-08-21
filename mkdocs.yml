@@ -13,11 +13,13 @@ copyright: Copyright &copy; 2021 Edgar Gago Carrillo
 
 # Page tree
 nav:
-  - Home: index.md
-  - Examples: examples.md
-  - Source code examples from JSDocs: source.md
-  - Code of conduct: code_of_conduct.md
-  - License: license.md
+  - README:
+    - Home: index.md
+    - Examples: examples.md
+    - Source code examples from JSDocs: source.md
+    - Code of conduct: code_of_conduct.md
+    - License: license.md
+  -src: 
 
 
 # Repository
@@ -33,7 +35,7 @@ theme:
   features:
     - navigation.instant
     - navigation.top
-    - navigation.sections
+    - navigation.expand
   palette:
     - scheme: slate 
       primary: green

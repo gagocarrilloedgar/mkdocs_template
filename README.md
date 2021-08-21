@@ -12,6 +12,7 @@ This is a custom setup based on [mkdocs.org](https://www.mkdocs.org) and [MKDocs
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+        src/      # Inclure sourcecode files       
 
 
 ## Install
