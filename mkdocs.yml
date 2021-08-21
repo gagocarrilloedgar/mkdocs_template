@@ -1,13 +1,23 @@
 
 # Project information
-site_name: Test example MKDocs
+site_name: Material MKDocs template
 site_url:  https://gagocarrilloedgar.github.io/mkdocs_template/
+site_author: Edgar Gago Carrillo
+site_description: >-
+  This is a custom setup based on mkdocs.org and MKDocs Material
+  that contains the basic project documentation config, including, README, 
+  code of conduct and license
+
+# Copyright
+copyright: Copyright &copy; 2021 Edgar Gago Carrillo
 
 # Page tree
 nav:
   - Home: index.md
-  - About: about.md
-  - Source code: source.md
+  - Examples: examples.md
+  - Source code examples from JSDocs: source.md
+  - Code of conduct: code_of_conduct.md
+  - License: license.md
 
 
 # Repository
@@ -20,6 +30,8 @@ theme:
   logo: assets/logo.png
   favicon: img/favicon.ico
   homepage: https://github.com/gagocarrilloedgar/mkdocs_template
+  features:
+    - navigation.top
   palette:
     - scheme: slate 
       primary: green
