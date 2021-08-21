@@ -1,13 +1,17 @@
 
 # Project information
 site_name: Test example MKDocs
-site_url:  https://gagocarrilloedgar.github.io/mkdocs_template/
+site_url: https://gagocarrilloedgar.github.io/mkdocs_template/
+
 
 # Page tree
+
 nav:
-  - Home: index.md
+  - Home: index.md 
   - About: about.md
-  - Source code: source.md
+  - Conribute: contribute.md
+  - Licence: LICENSE.md
+  - Code of Conduct: CODE_OF_CONDUCT.md
 
 
 # Repository
@@ -15,11 +19,14 @@ repo_name: gagocarrilloedgar/mkdocs_template
 repo_url: https://github.com/gagocarrilloedgar/mkdocs_template
 edit_uri: ""
 
+# Theme
 theme:
   name: material
   logo: assets/logo.png
   favicon: img/favicon.ico
-  homepage: https://github.com/gagocarrilloedgar/mkdocs_template
+  homepage: https://github.com/[gagocarrilloedgar]/mkdocs_template
+  features:
+    - navigation.top
   palette:
     - scheme: slate 
       primary: green
